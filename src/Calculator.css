@@ -1,0 +1,83 @@
+.Calculator {
+  padding: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  flex-grow: 1;
+}
+
+.Calculator__display {
+  font-size: 26px;
+  text-align: right;
+  border-radius: 5px;
+  border: 1px solid #dfdfdf;
+}
+
+.Calculator__controls {
+  display: grid;
+  grid-template: auto auto auto auto auto / auto auto auto auto;
+  margin-top: 10px;
+  flex-grow: 1;
+}
+
+.Calculator__button {
+  border-radius: 5px;
+  border: 1px solid #dfdfdf;
+  background: white;
+  margin: 2px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Calculator__button.primary {
+  background: #1797d5;
+  color: white;
+}
+
+.Calculator__button.primary:active {
+  background: #71b1d1;
+}
+
+.Calculator__button:focus {
+  outline: none;
+}
+
+.Calculator__button:active {
+  background: #1797d5;
+  color: white;
+}
+
+.Calculator__button.column-1 {
+  grid-column: 1;
+}
+
+.Calculator__button.column-2 {
+  grid-column: 2;
+}
+
+.Calculator__button.column-3 {
+  grid-column: 3;
+}
+
+.Calculator__button.column-4 {
+  grid-column: 4;
+}
+
+.Calculator__button.row-1 {
+  grid-row: 1;
+}
+
+.Calculator__button.row-2 {
+  grid-row: 2;
+}
+
+.Calculator__button.row-3 {
+  grid-row: 3;
+}
+
+.Calculator__button.row-4 {
+  grid-row: 4;
+}
+
+.Calculator__button.row-5 {
+  grid-row: 5;
+}
